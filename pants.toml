@@ -1,0 +1,12 @@
+[GLOBAL]
+pants_version = "2.15.0"
+
+backend_packages = [
+  "pants.backend.python",
+]
+
+#[environments-preview.names]
+#linux_devcontainer = "//:local-environment"
+
+[anonymous-telemetry]
+enabled = false
